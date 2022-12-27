@@ -1,0 +1,30 @@
+{
+  "name": "cordova-android-angular-pusher-beams",
+  "version": "1.0.0",
+  "description": "Android Pusher Beams Plugin",
+  "cordova": {
+    "id": "cordova-android-angular-pusher-beams",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "angular",
+    "cordova",
+    "android",
+    "notifications",
+    "pusher",
+    "beams",
+    "push-notifications",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Oussama ADROUJ",
+  "license": "Apache 2.0"
+}

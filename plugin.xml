@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-android-angular-pusher-beams" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<name>PusherBeams</name>
+
+<description>Android Pusher Beams Plugin</description>
+<license>Apache 2.0</license>
+<keywords>angular, cordova, android, notifications, pusher, beams, push-notifications</keywords>
+
+<engines>
+<engine name="cordova" version=">=3.0.0" />
+</engines>
+
+<js-module name="PusherBeams" src="www/PusherBeams.js">
+<clobbers target="PusherBeams" />
+</js-module>
+
+<platform name="android">
+<config-file target="config.xml" parent="/*">
+<feature name="PusherBeams">
+<param name="android-package" value="com.evidence.PusherBeams" />
+</feature>
+</config-file>
+
+<source-file src="src/android/PusherBeams.java" target-dir="src/com/evidence/pusher-beams" />
+</platform>
+</plugin>
