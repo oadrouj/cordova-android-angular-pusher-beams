@@ -10,6 +10,7 @@
 <engine name="cordova" version=">=3.0.0" />
 </engines>
 
+ <asset src="www/PusherBeams.js" target="js/PusherBeams.js"/>
 <js-module name="PusherBeams" src="www/PusherBeams.js">
 <clobbers target="PusherBeams" />
 </js-module>
